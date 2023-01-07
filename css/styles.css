@@ -17,6 +17,17 @@ body * {
     box-sizing: border-box;
 }
 
+.phone {
+    color: #E3B873;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
 .container{
     max-width: 1250px;
     margin: 0 auto;
