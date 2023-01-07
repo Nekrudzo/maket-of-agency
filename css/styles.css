@@ -157,3 +157,92 @@ body * {
     padding-top: 41px;
     padding-bottom: 208px;
 }
+
+.completed {
+    background: #131313;
+    background-size: cover;
+    height: 1074px;
+    border-radius: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    height: 83px;
+    align-items: center;
+    padding-top: 107px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-navigation_item {
+    text-decoration: none;
+    color: white;
+    margin-right: 61px;
+}
+
+.item1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+    left: 626px;
+}
+
+.mainphoto {
+    position: relative;
+    top: 52px;
+    margin-right: 134px;
+    bottom: 416px;
+    margin-left: 626px;
+    overflow: hidden;
+}
+
+.mainphoto2 {
+    position: absolute;
+    top: 52px;
+    margin-right: 134px;
+    right: 134px;
+    bottom: 416px;
+    margin-left: 626px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.rectangle {
+    position: absolute;
+    left: 555px;
+    top: 130px;
+}
+
+.title2 {
+    position: absolute;
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #E3B873;
+    left: 134px;
+    top: 176px;
+    
+}
+
+
+.text2 {
+    margin: 0;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-left: 132px;
+}
