@@ -178,13 +178,47 @@ body * {
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     text-transform: uppercase;
     margin: 0;
+
 }
 
 .main-navigation_item {
     text-decoration: none;
     color: white;
+    padding-bottom: 5px;
     margin-right: 61px;
 }
+
+.main-navigation_item li {
+    color: white;
+    cursor: pointer;
+	line-height: 1;
+}
+
+.main-navigation_item a::after {
+    color: rgba(227, 184, 115, 1);
+    cursor: pointer;
+	line-height: 1;
+}
+
+.main-navigation_item a:hover {
+    color: rgba(227, 184, 115, 1);
+}
+
+.main-navigation_item:after {
+    display: block;
+	left: 0; 
+	width: 0;
+	height: 2px;
+	background-color: rgba(227, 184, 115, 1);
+	content: "";
+    color: rgba(227, 184, 115, 1);
+}
+
+.main-navigation_item:hover::after,
+.main-navigation_item:focus::after {
+    width: 100%;
+}
+
 
 .item1 {
     font-weight: 400;
@@ -218,12 +252,6 @@ body * {
     overflow: hidden;
     z-index: -1;
     padding-left: 50px;
-}
-
-.rectangle {
-    display: flex;
-    justify-content: right;
-    
 }
 
 .title2 {
