@@ -266,6 +266,15 @@ body * {
     line-height: 53px;
     text-transform: uppercase;
     color: #E3B873;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 27px;
+    padding-left: 132px;
+    padding-top: 103px;
 }
 
 
@@ -280,4 +289,27 @@ body * {
     color: #FFFFFF;
     padding-left: 132px;
     order: 1;
+    padding-top: 137px;
+    width: 574px;
+    height: 362px;
+    margin-right: 50px;
+
+}
+
+.h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.complProjects li {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+   
+    
+    margin-right: 124px;
+    list-style: none;
+    display: flex;
+    justify-content: left;
 }
