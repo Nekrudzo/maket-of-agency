@@ -234,12 +234,13 @@ body * {
     justify-content: right;
     position: relative;
     top: 0px;
-    margin: 0px;
-    margin: 0 auto;
     overflow: hidden;
     padding-top: 52px;
     padding-left: 50px;
     padding-right: 134px;
+    width: 863px;
+    margin-right: 0px;
+    margin-left: 626px;
 }
 
 .mainphoto2 {
@@ -302,14 +303,61 @@ body * {
 
 }
 
-.complProjects li {
+.complProjects {
     text-decoration: none;
     color: white;
     position: absolute;
-   
-    
-    margin-right: 124px;
     list-style: none;
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 443px;
+    padding: 0px;
+    margin-top: 281px;
+    margin-left: 134px;
+}
+
+.complProjects_item {
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+}
+
+
+
+.complProjects-text {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 443px;
+    height: 162px;
+    padding: 0px;
+    margin-top: 312px;
+    margin-left: 134px;
+}
+
+.complProjects-text_item {
+    margin-right: 124px;
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
 }
