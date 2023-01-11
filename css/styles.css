@@ -310,7 +310,7 @@ body * {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     width: 443px;
@@ -319,7 +319,51 @@ body * {
     margin-left: 134px;
 }
 
-.complProjects_item {
+.complProjects-text {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 443px;
+    height: 162px;
+    padding: 0px;
+    margin-top: 312px;
+    margin-left: 134px;
+}
+
+.complProjects-text_item {
+    margin-right: ;
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.complProjects_item-City {
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+    margin-right: 124px;
+    width: 66px;
+    height: 22px;
+}
+
+.complProjects_item-area {
     margin-bottom: 85px;
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -331,26 +375,48 @@ body * {
     text-transform: uppercase;
 }
 
-
-
-.complProjects-text {
-    text-decoration: none;
-    color: white;
-    position: absolute;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 443px;
-    height: 162px;
-    padding: 0px;
-    margin-top: 312px;
-    margin-left: 134px;
+.complProjects_item-time {
+    margin-right: 34px;
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+    width: 156px;
+    height: 22px;
 }
 
-.complProjects-text_item {
+.complProjects_item-cost {
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+}
+
+.complProjects-text_item-1 {
+    margin-right: 29px;
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 161px;
+    height: 42px;
+}
+
+.complProjects-text_item-2 {
     margin-right: 124px;
     margin-bottom: 85px;
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
@@ -360,4 +426,36 @@ body * {
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+    width: 51px;
+    height: 42px;
+
 }
+
+.complProjects-text_item-3 {
+    margin-right: 87px;
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 103px;
+    height: 24px;
+}
+
+.complProjects-text_item-4 {
+    margin-right: ;
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 115px;
+    height: 24px;
+}
+
