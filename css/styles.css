@@ -26,10 +26,13 @@ body * {
     line-height: 15px;
     text-align: right;
     text-decoration-line: underline;
+    margin-right: 45px;
+    width: 171px;
+    height: 16px;
 }
 
 .container{
-    max-width: 1250px;
+    max-width: 1438px;
     margin: 0 auto;
 }
 
@@ -42,14 +45,23 @@ body * {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
+    margin-right: 90px;
+    font-size: 11px;
+    height: 37px;
+    width: 176px;
 }
 
 .logo{
     color: #E3B873;
+    margin-left: 92px;
+    width: 271px;
+    height: 10px;
+    font-size: 11px;
 }
 
 .header {
     background-color: black;
+    margin: 0 auto;
 }
 
 .header-content{
@@ -57,11 +69,13 @@ body * {
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    margin: 0 ;
 }
 
 .header-navigation {
     list-style: none;
     display: flex;
+    font-size: 11px;
 }
 
 .header-navigation__item {
@@ -70,6 +84,10 @@ body * {
 .header-navigation__item a{
     text-decoration: none;
     color: white;
+}
+
+.header-navigation__item a:hover {
+    color: rgba(227, 184, 115, 1);
 }
 
 .hero {
