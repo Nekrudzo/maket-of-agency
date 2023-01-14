@@ -165,6 +165,12 @@ body * {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 209px;
+    height: 53px;
 }
 
 .buttons {
@@ -176,6 +182,16 @@ body * {
     padding-bottom: 208px;
 }
 
+.button1 {
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px;
+    padding-left: 0px;
+    height: 51px; 
+    width: 207px; 
+    margin-right: 20px;
+}
+
 .completed {
     background: #131313;
     background-size: cover;
@@ -184,6 +200,8 @@ body * {
     margin: 0 auto;
     position: relative;
 }
+
+/* Nav2 */
 
 .main-navigation {
     list-style: none;
@@ -237,6 +255,7 @@ body * {
     width: 100%;
 }
 
+/* Nav2 */
 
 .item1 {
     font-weight: 400;
@@ -321,6 +340,8 @@ body * {
 
 }
 
+/* Zagolovok */
+
 .complProjects {
     text-decoration: none;
     color: white;
@@ -335,35 +356,6 @@ body * {
     padding: 0px;
     margin-top: 281px;
     margin-left: 134px;
-}
-
-.complProjects-text {
-    text-decoration: none;
-    color: white;
-    position: absolute;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 443px;
-    height: 162px;
-    padding: 0px;
-    margin-top: 312px;
-    margin-left: 134px;
-}
-
-.complProjects-text_item {
-    margin-right: ;
-    margin-bottom: 85px;
-    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
 }
 
 .complProjects_item-City {
@@ -420,6 +412,38 @@ body * {
     text-transform: uppercase;
 }
 
+/* Zagolovok */
+
+/* Tekst zagolovka */
+
+.complProjects-text {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 443px;
+    height: 162px;
+    padding: 0px;
+    margin-top: 312px;
+    margin-left: 134px;
+}
+
+.complProjects-text_item {
+    margin-bottom: 85px;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
 .complProjects-text_item-1 {
     margin-right: 29px;
     margin-bottom: 85px;
@@ -464,7 +488,6 @@ body * {
 }
 
 .complProjects-text_item-4 {
-    margin-right: ;
     margin-bottom: 85px;
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-size: 13px;
@@ -477,3 +500,248 @@ body * {
     height: 24px;
 }
 
+/* Tekst zagolovka */
+
+/*SLIDER */
+
+body {
+    
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+.css-slider-wrapper {
+    display: block;
+    background: transparent;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 205px;
+    height: 22px;
+    margin-top: 650px;
+    margin-left: 132px;
+  }
+  
+  .slide-radio1 {
+    margin-left: 75px;
+  }
+  
+  /* Slider */
+  
+  .slider {
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 0;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    -webkit-transition: -webkit-transform 1600ms;
+    transition: -webkit-transform 1600ms, transform 1600ms;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .slider>div {
+    text-align: center;
+  }
+  
+  
+  /* Slider inner slide effect */
+  
+  .slider .button {
+    color: #FFF;
+    padding: 5px 30px;
+    background: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    opacity: 0;
+    font-size: 15px;
+    line-height: 30px;
+    display: inline-block;
+    -webkit-transform: translateX(-500px);
+    transform: translateX(-500px);
+  }
+  
+  /* Next and Preive arrow */
+  
+  .control {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    z-index: 55;
+  }
+  
+  .control label {
+    z-index: 0;
+    display: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    color: #FFF;
+    cursor: pointer;
+    opacity: 0.2;
+  }
+  
+  .control label:hover {
+    opacity: 0.5;
+  }
+  
+  .next {
+    right: 1%;
+  }
+  
+  .previous {
+    left: 1%;
+  }
+  
+  
+  /* Slider Pagger */
+  
+  .slider-pagination {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .slider-pagination label {
+    width: 10px;
+    height: 10px;
+    border-radius: ;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 2px;
+    border: solid 1px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
+  
+  
+  /* Slider Pagger arrow event */
+  
+  .slide-radio1:checked~.previous .numb1, /* ДОБАВИЛ */
+  .slide-radio1:checked~.next .numb2,
+  .slide-radio2:checked~.next .numb3,
+  .slide-radio3:checked~.next .numb4,
+  .slide-radio2:checked~.previous .numb1,
+  .slide-radio3:checked~.previous .numb2,
+  .slide-radio4:checked~.previous .numb3,
+  .slide-radio4:checked~.next .numb4 /* ДОБАВИЛ */ {
+    display: block;
+    z-index: 1
+  }
+  
+  
+  /* Slider Pagger event */
+  
+  .slide-radio1:checked~.slider-pagination .page1,
+  .slide-radio2:checked~.slider-pagination .page2,
+  .slide-radio3:checked~.slider-pagination .page3,
+  .slide-radio4:checked~.slider-pagination .page4 {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  
+  /* Slider slide effect */
+  
+  .slide-radio1:checked~.slider {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  
+  .slide-radio2:checked~.slider {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  
+  .slide-radio3:checked~.slider {
+    -webkit-transform: translateX(-200%);
+    transform: translateX(-200%);
+  }
+  
+  .slide-radio4:checked~.slider {
+    -webkit-transform: translateX(-300%);
+    transform: translateX(-300%);
+  }
+  
+  .slide-radio1:checked~.slide1 h2,
+  .slide-radio2:checked~.slide2 h2,
+  .slide-radio3:checked~.slide3 h2,
+  .slide-radio4:checked~.slide4 h2,
+  .slide-radio1:checked~.slide1 .button,
+  .slide-radio2:checked~.slide2 .button,
+  .slide-radio3:checked~.slide3 .button,
+  .slide-radio4:checked~.slide4 .button {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .slider h2 {
+      font-size: 20px;
+    }
+    .slider>div {
+      padding: 0 2%
+    }
+    .control label {
+      font-size: 35px;
+    }
+    .slider .button {
+      padding: 0 15px;
+    }
+  }
+  
+  /*SLIDER */
+
+  .control {
+    position: absolute;
+    margin: 0 auto;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 750px;
+    margin-bottom: 0px;
+    width: 196px;
+    height: 26px;
+  }
+
+.my-icon {
+   width: 32px;
+   height: 28px;
+   background-image: url("../Images/Vector.png");
+   background-size: cover;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.control h3 {
+    margin-bottom: 12px;
+}
