@@ -761,10 +761,6 @@ svg path {
     fill:#E3B873;
 }
 
-.ControlPhoto {
-
-}
-
 .ControlPhoto img {
     margin: 0 auto;
     position: absolute;
@@ -897,3 +893,65 @@ svg path {
     margin-top: 1765px;
     color: rgba(24, 24, 24, 1);
   }
+
+  .type {
+    margin-top: 1840px;
+    color: rgba(24, 24, 24, 1);
+  }
+
+  .decorPhoto {
+    width: 392px;
+    display: flex;
+    margin-top: 204px;
+    margin-left: 100px;
+  }
+
+  .block {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    width: 330px;
+    height: 286px;
+    z-index: 1;
+    top: 2200px;
+    margin-left: 31px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+
+  }
+
+  .subtitle {
+    font-family: "Yeseva One", 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+  }
+
+  .list {
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+  }
+
+.block2 {
+    margin-left: 453px;
+}
+
+.b1 {
+    margin-right: 0px;
+    height: 46px;
+    width: 227px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.block3 {
+    margin-left: 875px;
+}
