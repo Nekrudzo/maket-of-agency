@@ -761,6 +761,10 @@ svg path {
     fill:#E3B873;
 }
 
+.ControlPhoto {
+
+}
+
 .ControlPhoto img {
     margin: 0 auto;
     position: absolute;
@@ -793,3 +797,103 @@ svg path {
     right: 0px;
     left: 0px;
 }
+
+
+
+.btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(227, 184, 115, 1);
+    background: url(../Images/buttoN2.png) no-repeat;
+    background-size: 140px;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 133px;
+    height: 109px;
+    text-align: center;
+    margin-left: 732px;
+    margin-top: 1101px;
+}
+
+.input {
+    border-radius: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background: white;
+    width: 769px;
+    height: 51px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 333px;
+    margin-top: 1634px;
+}
+
+.input label {
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    color: rgba(54, 54, 54, 0.5);
+    
+}
+
+.input input {
+    margin-right: 58px;
+    height: 17px;
+    border: 0;
+}
+
+.label {
+    cursor: pointer;
+  }
+.checkbox{
+    display: none;
+  }
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    margin-top: 1124px;
+    margin-left: 587px;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+
+  .text-checkbox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 282px;
+    height: 18px;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 598px;
+    margin-top: 1765px;
+    color: rgba(24, 24, 24, 1);
+  }
